@@ -11,8 +11,6 @@ from sql_helpers.pmpermit_sql import is_approved, approve, disapprove, get_all_a
 from uniborg.util import admin_cmd
 
 
-borg.storage.PM_WARNS = {}
-borg.storage.PREV_REPLY_MESSAGE = {}
 
 
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
